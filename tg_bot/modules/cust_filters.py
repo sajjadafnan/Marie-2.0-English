@@ -269,14 +269,14 @@ def __chat_settings__(chat_id, user_id):
 
 
 __help__ = """
- - /filters: list all active filters in this chat.
+ - /filters: ഈ ചാറ്റിലെ സജീവമായ എല്ലാ ഫിൽട്ടറുകളും പട്ടികപ്പെടുത്തുക.
 
-*Admin only:*
- - /filter <keyword> <reply message>: add a filter to this chat. The bot will now reply that message whenever 'keyword'\
-is mentioned. If you reply to a sticker with a keyword, the bot will reply with that sticker. NOTE: all filter \
-keywords are in lowercase. If you want your keyword to be a sentence, use quotes. eg: /filter "hey there" How you \
-doin?
- - /stop <filter keyword>: stop that filter.
+*അഡ്‌മിൻ മാത്രം:*
+ - /filter <keyword> <reply message>: ഈ ചാറ്റിലേക്ക് ഒരു ഫിൽട്ടർ ചേർക്കുക.
+ 'കീവേഡ്' പരാമർശിക്കുമ്പോഴെല്ലാം ബോട്ട് ആ സന്ദേശത്തിന് മറുപടി നൽകും. ഒരു കീവേഡ് ഉപയോഗിച്ച് നിങ്ങൾ ഒരു സ്റ്റിക്കറിന് മറുപടി നൽകിയാൽ, ബോട്ട് ആ സ്റ്റിക്കർ ഉപയോഗിച്ച് മറുപടി നൽകും. 
+ ശ്രദ്ധിക്കുക: എല്ലാ ഫിൽ‌റ്റർ‌ കീവേഡുകളും ചെറിയക്ഷരത്തിലാണ്. നിങ്ങളുടെ കീവേഡ് ഒരു വാക്യമാകണമെങ്കിൽ, ഉദ്ധരണികൾ ഉപയോഗിക്കുക. 
+ ഉദാ: / ഫിൽട്ടർ "ഹേയ് അവിടെ" നിങ്ങൾ എങ്ങനെ ചെയ്യുന്നു?
+ - /stop <filter keyword>: ആ ഫിൽട്ടർ നിർത്തുക...
 """
 
 __mod_name__ = "Filters"
